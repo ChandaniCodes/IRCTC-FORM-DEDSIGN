@@ -1,0 +1,23 @@
+h1{
+	text-align:center;
+}
+input{
+	background-color:lightpink;
+}
+select{
+	background-color:lightpink;
+}
+textarea{
+	background-color:lightpink;
+}
+.bodystyle{
+	background:rgba(0,0,0,0);
+	background-color:lightpink;
+}
+.alignCenter{
+	text-align:center;			
+}
+#image{				
+	float:right;
+	margin-right:100px;
+}

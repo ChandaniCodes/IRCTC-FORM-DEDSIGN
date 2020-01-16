@@ -1,0 +1,202 @@
+<html>
+	<head>
+		<title>IRCTC</title>
+		<!--<style>						using inhead/interrnal style sheet
+			h1{
+				text-align:center;
+			}
+			input{
+				background-color:lightpink;
+			}
+			select{
+				background-color:lightpink;
+			}
+			textarea{
+				background-color:lightpink;
+			}
+			.bodystyle{
+				background:rgba(0,0,0,0);
+				background-color:lightpink;
+			}
+			.alignCenter{
+				text-align:center;			
+			}
+			#image{				
+				float:right;
+				margin-right:100px;
+			}
+		</style>-->
+		<link rel="stylesheet" href="IRCTCstyle.css"/>  <!--using external style sheet-->
+	</head>
+	<body class="bodystyle">	
+	<img id="image" src="irctc.png" alt="irctc logo" height="100em"	width="90em"/>	
+		<h1>South Western Railway<br/>RESERVATION/CANCELLATION REQUISITION FORM</h1>
+		<blockquote>
+		<ul><li>Please Tick ( &#10003; ) in the relevent box(es)</li></ul>
+		<table>
+			<tr>
+				<td width="600px">
+					<ul>
+						<li>Medicaal Practitioner &emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox" /></li>
+						<li>Sr. Citizen Concession required &emsp;<input type="checkbox" /></li>
+					</ul>
+				</td>
+				<td>
+					<ul>
+						<li>Upgradation required &emsp;&emsp;&emsp;&nbsp;<input type="checkbox" /></li>
+						<li>Pregnent Women/liady above <input type="checkbox" /><br/>45 years travelling</li>			
+					</ul>
+				</td>
+			</tr>
+		</table>
+		<blockquote>
+				Train No. & Name &nbsp <input type="text"/><br/><br/>
+				Date of Journey &nbsp &nbsp &nbsp <input type="date"/>&nbsp
+				Class <select >
+					 <option>1A</option>
+					 <option>2A</option>
+					 <option>3A</option>
+					 <option>FC</option>
+					 <option>CC</option>
+					 <option>SL</option>
+					 <option>2S</option>
+					</select>&nbsp
+			    No. of Berths/Seats &nbsp <input type="number"/><br/><br/>
+				Station from &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="text"/>&nbsp &nbsp
+				To <input type="text"/><br/><br/>
+				Boarding at <input type="text"/>&nbsp
+				Reservation Up to: &nbsp;<input type="text"/><br/>
+				<table border="1" cellspacing="0">
+					<tr>
+						<td>Sl.<br/>No.</td>
+						<td class="alignCenter" width="150px">NAME IN BLOCK LETTER<br/>not more than 15 letters</td>
+						<td class="alignCenter" width="80px">Gender<br/>M/F</td>
+						<td class="alignCenter" width="40px">Age</td>
+						<td class="alignCenter" width="150px">Consession/<br/>Travel<br/>Authority No.</td>
+						<td class="alignCenter" width="100px">Choice<br/> if any</td>
+					</tr>					
+					<tr>
+						<td class="alignCenter">1</td>
+						<td> <input type="text"/> </td>
+						<td> <input type="text"/></td>
+						<td> <input type="number"/></td>
+						<td> <input type="text"/></td>
+						<td rowspan="6">
+								<select>
+									<option>Lower</option>
+									<option>Upper Bearth</option>
+									<option>Window Seat</option>
+								</select> 
+								<select>
+									<option>Veg.</option>
+									<option>Non Veg.</option>
+									<option>Meals(for Rajdhani Shatabdi Express only)</option>									
+								</select>	
+						</td>
+					</tr>
+					<tr>
+						<td class="alignCenter">2</td>
+						<td> <input type="text"/> </td>
+						<td> <input type="text"/></td>
+						<td> <input type="number"/></td>
+						<td> <input type="text"/></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="alignCenter">3</td>
+						<td> <input type="text"/> </td>
+						<td> <input type="text"/></td>
+						<td> <input type="number"/></td>
+						<td> <input type="text"/></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="alignCenter">4</td>
+						<td> <input type="text"/> </td>
+						<td> <input type="text"/></td>
+						<td> <input type="number"/></td>
+						<td> <input type="text"/></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="alignCenter">5</td>
+						<td> <input type="text"/> </td>
+						<td> <input type="text"/></td>
+						<td> <input type="number"/></td>
+						<td> <input type="text"/></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="alignCenter">6</td>
+						<td> <input type="text"/> </td>
+						<td> <input type="text"/></td>
+						<td> <input type="number"/></td>
+						<td> <input type="text"/></td>
+						<td></td>
+					</tr>
+				</table>	
+				<p class="alignCenter"><b>Children Below 5 Years</b>(For whom Ticket is not to be issued)</p>
+				<table border="1" cellspacing="0">
+					<tr>
+						<td >Sl.<br/>No.</td>
+						<td class="alignCenter" width="150px " >Name in Block Letter</td>
+						<td class="alignCenter" width="80px">Gender<br/>M/F</td>
+						<td class="alignCenter" width="40px">Age</td>
+					</tr>					
+					<tr>
+						<td class="alignCenter">1</td>
+						<td > <input type="text"/> </td>
+						<td> <input type="text"/></td>
+						<td> <input type="number"/></td>
+					</tr>
+					<tr>
+						<td class="alignCenter">2</td>
+						<td> <input type="text"/> </td>
+						<td> <input type="text"/></td>
+						<td> <input type="number"/></td>
+					</tr>
+				</table>	
+					<p class="tdstyle"><b>ONWARD RETURN JOURNEY DETAILS</b></p>				
+					Train No. & Name &nbsp <input type="text"/>
+					Date of Journey:&nbsp <input type="date"/>&nbsp
+					Class <select>
+					 <option>1A</option>
+					 <option>2A</option>
+					 <option>3A</option>
+					 <option>FC</option>
+					 <option>CC</option>
+					 <option>SL</option>
+					 <option>2S</option>
+					</select><br/><br/>					
+					No. of Berths/Seats:&nbsp <input type="number"/>
+					Station from&nbsp <input type="text"/>&nbsp
+					To <input type="text"/><br/><br/>					
+					Name of Applicant:<input type="text"/>&nbsp &nbsp
+					<input type="text"/><br/><br/>
+					Address:<textarea></textarea>					
+					<div class="alignCenter" style="height:10px; width:300px; border-bottom:2px solid black; margin-left:60%"><br/>Signature of Applicant / Respresentation</div><br/><br/>
+					Tel./Mob. No. if any:<input type="number"/>&nbsp &nbsp
+					Date:<input type="date"/>&nbsp &nbsp
+					Time:<input type="time"/>
+					<hr/>
+					<p class="alignCenter"><b>For Official Use Only</b></p>
+				S No. of Requisition:<input type="text"/>&nbsp
+				PNR No.:<input type="text"/>&nbsp
+				Berths/Seats No.<input type="number"/><br/><br/>
+				Amount Collection:<input type="text"/>&nbsp
+				<hr/>
+				<p><b>Note:</b>
+				<ol>
+					<li>Maximum permissible passengers is 6 per requisition</li>
+					<li>One person can give one requisition from at a time.Choice is subject to availiblity</li>
+					<li>Please check your ticket & balance amount before leaving the window.</li>
+					<li>Form not properly filled in or illegible shall not be entertained.</li>
+					<li>If upgradation is not exersiced full fare-paying passengers may be upgradated automatically.passengers bocked on single ticket may or may not get compact accomodation in the upgraded class.</li>
+					<li>If you are a medical practioner .you could be of help in an emergency.</li>
+					<li>If you are availing Senior Citizenconcession.please carry a proof of age during the journey.</li>
+					<li>If you are a pregnent women requesting lower berth; show the medical certificate at the time of reservation.</li>					
+				</ol>
+			</blockquote>
+		</blockquote>
+	</body>
+</html>
